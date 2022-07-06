@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Image Slider</title>
+</head>
+<body>
+    <div id="container">
+        <div id="wrapper">
+            <div class="image" id="lastClone">
+                <img src="/imgs/TommyPitchAF.jpg">
+            </div>
+            <div class="image">
+                <img src="./imgs/AlexBullAF.jpg">
+            </div>
+            <div class="image">
+                <img src="./imgs/HarryHeadAF.jpg">
+            </div>
+            <div class="image">
+                <img src="./imgs/SleepyHarryAF.jpeg">
+            </div>
+            <div class="image">
+                <img src="/imgs/TommyPitchAF.jpg">
+            </div>
+            <div class="image" id="firstClone">
+                <img  src="./imgs/AlexBullAF.jpg">
+            </div>
+        </div>
+        <div class="guide">
+            <div class="navDot" id="1"></div>
+            <div class="navDot" id="2"></div>
+            <div class="navDot" id="3"></div>
+            <div class="navDot" id="4"></div>
+        </div>
+        <button type="button" class="button" id="back"><</button>
+        <button type="button" class="button" id='forward'>></button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
